@@ -146,6 +146,31 @@ body {
   margin-right: 16px;
 }
 
+.project-bullet{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #FFBB01;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.project-bullet-active{
+  background-color: #FFBB01;
+}
+
+.project-pagination{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 44px;
+}
+
+.progect-image{
+  width:400px;
+  height:auto;
+  }
 /* features */
 
 .section {
@@ -226,14 +251,14 @@ input {
 
 .input-name {
   margin-bottom: 17px;
-  background-image: url('imgs/contacts/user-icon.png');
+  background-image: url('../imgs/contacts/user-icon.png');
   background-repeat: no-repeat;
   background-position: center left 20px;
 }
 
 .input-phone {
   margin-bottom: 17px;
-  background-image: url('imgs/contacts/phone-icon.png');
+  background-image: url('../imgs/contacts/phone-icon.png');
   background-repeat: no-repeat;
   background-position: center left 20px;
 }
