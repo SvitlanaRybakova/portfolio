@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   background-color: #20202D;
   margin: 0;
@@ -13,7 +14,7 @@ body {
   margin: auto;
 }
 
-.hero{
+.hero {
   padding-top: 50px;
   background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
   padding-bottom: 155px;
@@ -24,14 +25,13 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 105px;
-  
 }
 
 .social-link {
   margin-left: 21px;
 }
 
-.social-link:first-child{
+.social-link:first-child {
   margin-left: 0;
 }
 
@@ -41,7 +41,8 @@ body {
   align-items: center;
   margin-bottom: 64px;
 }
-.hero-subtitle{
+
+.hero-subtitle {
   display: block;
   font-size: 24px;
   line-height: 28px;
@@ -57,7 +58,7 @@ body {
   margin-bottom: 20px;
 }
 
-.hero-description{
+.hero-description {
   font-weight: normal;
   font-size: 16px;
   line-height: 28px;
@@ -66,7 +67,7 @@ body {
   margin-bottom: 38px;
 }
 
-.button{
+.button {
   background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
   box-shadow: 0px 4px 0px #B68500;
   border: none;
@@ -84,24 +85,79 @@ body {
   height: 389px;
   background-color: white;
   border-radius: 50%;
-  background-image: url('imgs/avatar.jpg');
+  background-image: url('../imgs/avatar.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -97px top;
   border: solid 13px white;
-  
+}
+
+/* progects */
+
+.projects {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.project-slide {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.progect-text {
+  flex-basis: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-title {
+  flex-basis: 100%;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 41px;
+}
+
+.project-time, .project-cost {
+  flex-basis: 50%;
+}
+
+.project-time, .project-cost, .project-feedback {
+  display: flex;
+  align-items: flex-start;
+}
+
+.project-subtitle {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 7px;
+}
+
+.project-paragraf {
+  margin: 0;
+  margin-bottom: 44px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.progect-icon{
+  margin-right: 16px;
 }
 
 /* features */
-.section{
+
+.section {
   /* margin-top: 64px; */
   margin-bottom: 92px;
 }
+
 .features {
   background: #000;
 }
 
-.section-title{
+.section-title {
   margin: 0;
   font-weight: bold;
   font-size: 36px;
@@ -115,7 +171,7 @@ body {
   justify-content: space-between;
 }
 
-.features-item{
+.features-item {
   flex-basis: 30%;
   margin-bottom: 63px;
 }
@@ -139,26 +195,26 @@ body {
 }
 
 /* contacts */
+
 .contacts-form {
   background: #FFFFFF;
   box-shadow: -5px 5px 0px #FFC41D;
   border-radius: 5px;
   max-width: 380px;
   padding: 40px 48px 49px 48px;
-  
 }
 
-.form-title{
+.form-title {
   cfont-weight: bold;
   font-size: 18px;
   line-height: 28px;
   text-align: center;
   color: #000000;
-  margin:0;
+  margin: 0;
   margin-bottom: 29px;
 }
 
-input{
+input {
   background: #F8F8F8;
   box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
   border-radius: 5px;
@@ -168,21 +224,21 @@ input{
   padding-left: 50px;
 }
 
-.input-name{
+.input-name {
   margin-bottom: 17px;
   background-image: url('imgs/contacts/user-icon.png');
   background-repeat: no-repeat;
   background-position: center left 20px;
 }
 
-.input-phone{
+.input-phone {
   margin-bottom: 17px;
   background-image: url('imgs/contacts/phone-icon.png');
   background-repeat: no-repeat;
   background-position: center left 20px;
 }
 
-.form-button{
+.form-button {
   max-width: 100%;
 }
 
@@ -192,9 +248,10 @@ input{
   justify-content: space-between;
 }
 
-.contacts-text{
+.contacts-text {
   flex-basis: 50%;
 }
+
 .contacts-data {
   display: flex;
   flex-wrap: wrap;
@@ -206,11 +263,11 @@ input{
   margin-bottom: 53px;
 }
 
-.contacts-social{
+.contacts-social {
   flex-basis: 100%;
 }
 
-.contacts-title{
+.contacts-title {
   font-weight: bold;
   font-size: 24px;
   line-height: 28px;
@@ -219,7 +276,7 @@ input{
   margin-bottom: 15px;
 }
 
-.contacts-link{
+.contacts-link {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
@@ -231,7 +288,7 @@ input{
   text-decoration: underline;
 }
 
-.contacts-policy{
+.contacts-policy {
   display: inline-block;
   font-weight: normal;
   font-size: 15px;
@@ -239,5 +296,4 @@ input{
   text-decoration-line: underline;
   color: #A5A5A5;
   margin-top: 72px;
-
 }
